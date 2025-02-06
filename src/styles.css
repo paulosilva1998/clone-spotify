@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(to right, #1DB954, #191414);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.app-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    animation: fadeIn 1s ease-in-out;
+    overflow: auto;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+button {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button.play {
+    background-color: #1DB954;
+    color: white;
+}
+
+button.queue {
+    background-color: #191414;
+    color: white;
+}
+
+button.play:hover {
+    background-color: #17a54d;
+}
+
+button.queue:hover {
+    background-color: #111;
+}
+
+h1.title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+select,
+.bg-gray-800 {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .app-container {
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        width: 100vw;
+        height: 100vh;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
