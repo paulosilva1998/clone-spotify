@@ -14,6 +14,13 @@ Este projeto é ideal para quem deseja aprender sobre React, Vite e estilizaçã
 
 ## O que usamos :
 
+- React
+- React Hooks
+- Lucide-React
+- Vite
+- Tailwind CSS
+- CSS Customizado
+- HTML5 Audio API
 
 ## Imagens :
 
