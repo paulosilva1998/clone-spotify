@@ -32,3 +32,6 @@ Este projeto é ideal para quem deseja aprender sobre React, Vite e estilizaçã
 ![Captura de tela 2025-02-10 132755](https://github.com/user-attachments/assets/7248fdee-5f46-4d67-9621-ec8030e2fcbe)
 
 ## Vídeo rodando e usando a Interface Interativa!!
+
+https://github.com/user-attachments/assets/0df9a788-29f0-4519-a34a-6f4fd76af4df
+
